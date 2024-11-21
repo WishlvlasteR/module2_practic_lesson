@@ -1,4 +1,4 @@
-def generate_password(n):
+def generate_password(n):                               # Функция с именем generate_password и 1 принимающее значение
     result = ""                                         # Строка для хранения результата
     for i in range(1, n):                               # Первое число пары
         for j in range(i + 1, n):                       # Второе число пары
